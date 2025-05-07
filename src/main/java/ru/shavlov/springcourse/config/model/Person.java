@@ -20,7 +20,7 @@ public class Person {
     @Email(message = "Email should be valid")
     private String email;
 
-    public Person(){
+    public Person() {
 
     }
 
