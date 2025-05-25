@@ -1,11 +1,11 @@
-package ru.shavlov.springcourse.config.util;
+package ru.shavlov.springcourse.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
-import ru.shavlov.springcourse.config.dao.PersonDAO;
-import ru.shavlov.springcourse.config.model.Person;
+import ru.shavlov.springcourse.dao.PersonDAO;
+import ru.shavlov.springcourse.model.Person;
 
 @Component
 public class PersonValidator implements Validator {

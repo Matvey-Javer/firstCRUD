@@ -1,4 +1,4 @@
-package ru.shavlov.springcourse.config.model;
+package ru.shavlov.springcourse.model;
 
 import jakarta.validation.constraints.*;
 

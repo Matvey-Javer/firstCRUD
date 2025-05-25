@@ -1,12 +1,11 @@
-package ru.shavlov.springcourse.config.dao;
+package ru.shavlov.springcourse.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BatchPreparedStatementSetter;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
-import ru.shavlov.springcourse.config.model.Person;
-import ru.shavlov.springcourse.config.util.PersonValidator;
+import ru.shavlov.springcourse.model.Person;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
